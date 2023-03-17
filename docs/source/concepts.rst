@@ -25,7 +25,7 @@ Folders
 -------
 
 are used to organize items added to vju. The tree strucutre generated will be exposed over OPC UA
-:doc:'communication'
+:doc:`communication`
 
 Events
 ------

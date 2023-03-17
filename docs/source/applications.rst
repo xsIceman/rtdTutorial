@@ -10,6 +10,7 @@ Vju 3 Server
 ------------
 
 The controls part of the application. Consists of powerful plugins that can be added to create a custom control system. Exposes all data over OPC UA, and is easy to connect directly to Vju 3 Suite.
+:ref: `server:VJU-3-Server`
 
 Vju 3 Launcher
 --------------
