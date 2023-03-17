@@ -6,6 +6,8 @@ that creates recipes mixing random ingredients.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
+**maybe this is a very good tool for edit** Need to test if we can do both local and cloud builds
+
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
