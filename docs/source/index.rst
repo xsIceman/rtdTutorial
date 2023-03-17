@@ -1,12 +1,29 @@
-Welcome to Lumache's documentation!
+Welcome to VJU platform documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Vju 3 is software platform that consists of multiple application that are commonly used together to create powerful software products. 
+It is also possible to use the different application separately to integrate with other software platforms or applications. 
+Below is a short overview of the different applications and there use
 
-**maybe this is a very good tool for edit** Need to test if we can do both local and cloud builds
+Vju 3 Suite
+-----------
+
+This is the graphical interface for defining and running user defined HMI setups.
+
+Vju 3 Server
+------------
+
+The controls part of the application. Consists of powerful plugins that can be added to create a custom control system. Exposes all data over OPC UA, and is easy to connect directly to Vju 3 Suite.
+
+Vju 3 Launcher
+--------------
+
+Application used to start a combination of servers and suite instances. If multiple instances is required to run you control software launcher can help.
+
+Vju 3 Installer
+---------------
+
+Used to install the different vju applications. Can also be used to check and install updates.
 
 .. Check out the :doc:`usage` section for further information, including
  how to :ref:`installation` the project.
