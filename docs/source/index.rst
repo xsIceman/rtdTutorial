@@ -26,4 +26,5 @@ Contents
    installation
    concepts
    communication
+   server
    
