@@ -31,13 +31,18 @@ Events
 Events are used to notify different part of application that something occurred. An example is a button is clicked in HMI, this activates the events by calling the invoke method on the event. 
 The invoke method have an optional parameter of message that can be used to transferer information. On the listener side of the event there can be multiple listeners. So 1 method click in the HMI can start multiple actions.
 
-.. image:: path images/events_overview.png
+.. image:: images/events_overview.png
 
 Alarms
 ------
 
-.. image:: path images/alarms_overview.png
+.. image:: images/alarms_overview.png
 
+
+Vju Server
+----------
+
+.. image:: images/server_overview.png
 
 
 
