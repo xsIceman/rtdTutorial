@@ -14,6 +14,7 @@ Variables
 ---------
 
 There are support for the following variable types:
+
 * Numeric
 * Text
 * Boolean
