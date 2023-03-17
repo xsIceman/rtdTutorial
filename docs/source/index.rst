@@ -1,5 +1,5 @@
 Welcome to VJU platform documentation!
-===================================
+======================================
 
 Vju 3 is software platform that consists of multiple application that are commonly used together to create powerful software products. 
 It is also possible to use the different application separately to integrate with other software platforms or applications. 
