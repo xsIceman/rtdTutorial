@@ -24,7 +24,8 @@ For numeric variables VJU uses a 64bit float to represent all number variables.
 Folders
 -------
 
-are used to organize items added to vju. The tree strucutre generated will be exposed over ref:: OPC UA. 
+are used to organize items added to vju. The tree strucutre generated will be exposed over OPC UA
+:doc:'communication'
 
 Events
 ------
