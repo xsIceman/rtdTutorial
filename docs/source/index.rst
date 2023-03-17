@@ -36,5 +36,10 @@ Contents
 --------
 
 .. toctree::
+   :numbered:
+   :maxdepth: 4
+   :caption: Table of contents:
 
    installation
+   concepts
+   communication
