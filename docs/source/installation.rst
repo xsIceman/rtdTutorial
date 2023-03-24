@@ -23,12 +23,13 @@ VJU 3 file extension
 The installer will also associate the config files from the different vju applications with correct applications. With this association in place allows for double click on config files to start associated application.
 tables
 
-=========== ===========
-file type   application  
-=========== ===========
-.vjus       VJU Server application
-.vjui       VJU Studio application.
-.vjulaunch  VJU launcher application
-=========== ===========
+=============   ===========
+file type       application  
+=============   ===========
+.vjus           VJU Server application
+.vjui           VJU Studio application.
+.vjulaunch      VJU launcher application
+startup.json    VJU Server startup configuration file
+=============   ===========
 
 

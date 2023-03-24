@@ -18,6 +18,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx.ext.autosectionlabel',
+    # "sphinx_multiversion",
 ]
 
 
@@ -31,6 +32,10 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+
+html_sidebars = {
+    '**': ['localtoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html',  "_templates\\versioning.html"],
+}
 
 # -- Options for HTML output
 
