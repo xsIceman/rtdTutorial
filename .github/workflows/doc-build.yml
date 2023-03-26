@@ -12,20 +12,26 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest:latest
+    
 
     steps:
     - uses: actions/checkout@v3
+    
+    
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "docs/source"
         build-command: "sphinx-build -b html . _build"
-    - uses: actions/upload-artifact@v1
-      with:
-        name: DocumentationHTML
-        path: docs/_build/html/
-    - uses: ammaraskar/sphinx-action@master
-      with:
-        pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
-        docs-folder: "docs/source"
-        build-command: "make latexpdf"
+  build2:
+    runs-on: ubuntu-latest:latest
+    container:
+      image: minidocks/sphinx-doc:latest
+      volumes: 
+        - /home/runner/work/rtdTutorial/rtdTutorial/docs/source:/doc
+    steps:
+      - uses: actions/checkout@v3
+      - name: build doc
+        run: (sphinx-quickstart .)
+        
+    
